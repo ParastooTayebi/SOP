@@ -6,7 +6,7 @@ body {
     direction: rtl;
     width: 100%;
     height: 100%;
-    background:#5503d853;
+    background:#fff7dc;
     font-size: larger;
     text-align: right;
     padding: 3%;
@@ -18,14 +18,14 @@ span{
     margin: 8px 0  14px 0  ;
     font-family: 'Nazanin';
 
-}/*class_style*/
+}
 #a3{
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
     padding-left: 6px;
     padding-right: 10px;
-    border-color: #e8bbdf;
+    border-color: #ffa600;
 }
 span#a1{
     display: block;
@@ -34,19 +34,29 @@ span#a1{
     margin: 8px 360px  14px 360px  ;
     font-family: 'Nazanin';
 
-}/*class_style*/
+}
 #a1:hover{
-    color: beige;
+    color: rgb(255, 187, 0);
 }
 #a2:hover{
-    color: beige;
+    color: rgb(255, 187, 0);
 }
 span#a2{
     display: block;
     font-size: 28px;
     margin:0 0 4% 900px ;
     font-family: 'Nazanin';
-}/*class_style*/
+}
+
+#a4{
+    color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 10px;
+    border-color: #ffd485;
+}
 
 @font-face {
     font-family: 'Nazanin';
