@@ -1,0 +1,68 @@
+*{ padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    direction: ltr;
+    width: 100%;
+    height: 100%;
+    background:#fff7dc;
+    font-size: larger;
+    text-align: left;
+    padding: 3%;
+
+}
+span{
+    display: block;
+    font-size: 17px;
+    margin: 8px 0  14px 0  ;
+    font-family: 'Nazanin';
+
+}
+#a3{
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 10px;
+    border-color: #ffa600;
+}
+span#a1{
+    display: block;
+    font-size: 35px;
+    text-align: center;
+    margin: 8px 360px  14px 360px  ;
+    font-family: 'Nazanin';
+
+}
+#a1:hover{
+    color: rgb(255, 187, 0);
+}
+#a2:hover{
+    color: rgb(255, 187, 0);
+}
+span#a2{
+    display: block;
+    font-size: 28px;
+    margin:0 0 4% 900px ;
+    font-family: 'Nazanin';
+}
+
+#a4{
+    color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 10px;
+    border-color: #ffd485;
+}
+
+@font-face {
+    font-family: 'Nazanin';
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.eot?#iefix') format('embedded-opentype'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.woff') format('woff'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.ttf') format('truetype');
+    font-weight: normal;
+}
